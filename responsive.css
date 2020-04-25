@@ -35,10 +35,15 @@
     .list-item {
         display: flex;
         flex-wrap: wrap;
+        width: 100%;
     }
     
     .list-item li{
-        width: 50%;;
+        width: 50%;
+    }
+
+    .list-item img {
+        width: 75%;
     }
 
     .atas, .bawah {
@@ -47,7 +52,7 @@
 
     .arrow{
         position: absolute;
-        top: 145%;
+        top: 140%;
         left: 50%;
         transform: translate(-50%,-50%);
     }

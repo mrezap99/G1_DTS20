@@ -235,9 +235,11 @@ ul {
     padding-bottom: 80px;
     padding-left: 5%;
     padding-right: 5%;
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .team {
@@ -256,7 +258,6 @@ ul {
 .team-tengah {
     padding-top: 25px;
     width: 100%;
-    flex:auto;
 }
 
 .team-kiri {
