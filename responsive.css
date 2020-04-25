@@ -1,5 +1,5 @@
 @media (max-width : 1000px) {
-        /* Tambahkan CSS untuk lesson */
+        /* CSS untuk tabled */
         .list-item {
             flex-wrap: wrap;
         }
@@ -24,17 +24,25 @@
     }
 
 @media (max-width : 670px) {
-    /* Tambahkan CSS untuk lesson */
+    /* CSS untuk Smartphone */
     .list-item {
-        flex-direction : column;
+        display: flex;
+        flex-wrap: wrap;
     }
     
     .list-item li{
-        margin : 0 auto;
+        width: 50%;;
     }
 
     .atas, .bawah {
         text-align: center;
+    }
+
+    .arrow{
+        position: absolute;
+        top: 145%;
+        left: 50%;
+        transform: translate(-50%,-50%);
     }
 
     .heading p {
