@@ -46,6 +46,10 @@
         width: 50%;
     }
 
+    .welcome h1{
+        padding-bottom: 30px ;
+    }
+
     .list-item img {
         width: 75%;
     }
