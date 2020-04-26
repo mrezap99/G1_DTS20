@@ -46,6 +46,11 @@
         width: 50%;
     }
 
+    .welcome {
+        align-items: center;
+        text-align: center;
+    }
+
     .welcome h1{
         padding-bottom: 30px ;
     }
