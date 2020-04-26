@@ -28,7 +28,7 @@ body {
     margin-right: 5px;
 }
 
-.menu-icon {
+.menu-logo {
     color: white;
     float: right;
     font-size:25px;
@@ -238,7 +238,6 @@ ul {
     display: inline-flex;
     flex-wrap: wrap;
     text-align: center;
-    align-items: center;
     justify-content: center;
 }
 
@@ -248,7 +247,6 @@ ul {
 }
 
 .tim {
-    float: left;
     width: 50%;
     padding-top: 25px;
     margin-top: 30px;
@@ -264,12 +262,14 @@ ul {
     padding-top: 25px;
     width: 50%;
     flex: auto;
+    float: left;
 }
 
 .team-kanan {
     padding-top: 25px;
     width: 50%;
     flex: auto;
+    float: right;
 }
 
 

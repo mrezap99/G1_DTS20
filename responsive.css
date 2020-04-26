@@ -17,6 +17,10 @@
             transform: translate(-50%,-50%);
         }
 
+        .menu-logo {
+            display : none;
+        }
+
         .tim {
             width: 100%;
         }
@@ -65,7 +69,7 @@
         display : none;
     }
 
-    .menu-icon {
+    .menu-logo {
         display : block;
     }
 }
