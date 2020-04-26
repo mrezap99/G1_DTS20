@@ -63,13 +63,6 @@
         text-align: center;
     }
 
-    .arrow{
-        position: absolute;
-        top: 140%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-    }
-
     .heading p {
         font-size: normal;
     }
