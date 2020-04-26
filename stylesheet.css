@@ -165,7 +165,7 @@ ul {
 .list-item {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 75px;
+    margin-bottom:25px;
 }
 
 .list-item img {
