@@ -36,6 +36,10 @@ body {
     display:block;
 }
 
+a .menu-logo {
+    display: none;
+}
+
 header {
     height: 65px;
     width: 100%;
